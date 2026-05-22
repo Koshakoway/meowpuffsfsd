@@ -705,14 +705,16 @@ ${text}
               </div>
 
               <button
-                className="modalBuy"
+  className="modalBuy"
 
-                onClick={() => {
+  onClick={() => {
 
-                  add(selected.id);
+    add(selected.id);
 
-                }}
-              >
+    setSelected(null);
+
+  }}
+>
 
                 Добавить в корзину
 
